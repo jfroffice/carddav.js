@@ -33,22 +33,23 @@ jQuery(function($) {
 
 ## Documentation
 
-__vcard__ is an object including:
+__vcardArray__ is an Array of __vcard__ Object.
 
 ```html
 vcard = {
     url: '/caldav.php/user/addressbook/UUID.vcf',
     vcard: {
-        bday: Object
-        categories: Array[1]
-        email: Object
-        fn: String
-        n: String
-        note: String
-        rev: String
-        tel: Object
-        uid: String
-        version: String
+        bday: Object,
+        categories: Array[1],
+        email: Object,
+        fn: String,
+        n: String,
+        note: String,
+        rev: String,
+        tel: Object,
+        uid: String,
+        version: String,
+        /* some other properties */
     }
 } 
 ```
