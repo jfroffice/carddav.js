@@ -1,21 +1,31 @@
-# Cardav Js
+# CardDav JS
 
 jQuery API to access read-only CardDav Server (like DaviCal)
 
 ## Getting Started
 Download the [production version][min] or the [development version][max].
 
-[min]: https://raw.github.com/nodev/cardav.js/master/dist/cardav.js.min.js
-[max]: https://raw.github.com/nodev/cardav.js/master/dist/cardav.js.js
+[min]: https://raw.github.com/jfroffice/carddav.js/master/carddav.min.js
+[max]: https://raw.github.com/jfroffice/carddav.js/master/carddav.js
 
 In your web page:
 
 ```html
 <script src="jquery.js"></script>
-<script src="dist/cardav.js.min.js"></script>
+<script src="cardav.js.min.js"></script>
 <script>
 jQuery(function($) {
-  $.awesome(); // "awesome"
+    carddav.getContact({
+            url: '<DaviCal-Server>/caldav.php/user/addressbook/',
+            user: 'user',
+            passwd: 'secret',
+            error: function(jqXHR, textStatus, errorThrown) {
+                /* here handle error exception */
+            },
+            success: function(vcard) {
+                /* here your code */
+            }
+        });
 });
 </script>
 ```
