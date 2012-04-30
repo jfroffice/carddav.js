@@ -23,7 +23,7 @@ jQuery(function($) {
             error: function(jqXHR, textStatus, errorThrown) {
                 /* here handle error exception */
             },          
-            success: function(vcard) {
+            success: function(vcardArray) {
                 /* here your code */
             }
         });
@@ -32,7 +32,26 @@ jQuery(function($) {
 ```
 
 ## Documentation
-_(Coming soon)_
+
+__vcard__ is an object including:
+
+```html
+vcard = {
+    url: '/caldav.php/user/addressbook/UUID.vcf',
+    vcard: {
+        bday: Object
+        categories: Array[1]
+        email: Object
+        fn: String
+        n: String
+        note: String
+        rev: String
+        tel: Object
+        uid: String
+        version: String
+    }
+} 
+```
 
 ## Examples
 _(Coming soon)_
