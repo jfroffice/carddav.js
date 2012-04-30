@@ -1,10 +1,8 @@
-(function(global, $, webdav, undefined) {
+(function($, webdav, undefined) {
     "use strict";
   
     var version = '0.0.1',
         carddav = {};
-    
-    carddav.version = version;
     
     function parseVCard(_input) {
         
@@ -121,7 +119,7 @@
         return data + '</E:addressbook-multiget>';
     }
     
-    carddav.getContact = function(options) {
+    carddav.get = function(options) {
         
         webdav.report({
             url: options.url,
@@ -144,6 +142,9 @@
         });        
     };
     
-    global.carddav = carddav;
+    carddav.version = version;
     
-}(this, jQuery, this.webdav));
+    // INSTALL in jQuery
+    $.carddav = carddav;
+    
+}(jQuery, this.webdav));

@@ -15,13 +15,14 @@ In your web page:
 <script src="cardav.js.min.js"></script>
 <script>
 jQuery(function($) {
-    carddav.getContact({
+    
+    $.carddav.get({
             url: '<DaviCal-Server>/caldav.php/user/addressbook/',
             user: 'user',
             passwd: 'secret',
             error: function(jqXHR, textStatus, errorThrown) {
                 /* here handle error exception */
-            },
+            },          
             success: function(vcard) {
                 /* here your code */
             }

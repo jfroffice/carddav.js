@@ -79,4 +79,6 @@
         });
     };
     
+    global.webdav = webdav;
+    
 }(this, jQuery, this.btoa));
