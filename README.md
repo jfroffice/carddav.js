@@ -2,8 +2,7 @@
 
 jQuery API to access read-only CardDav Server (like DaviCal)
 
-![logo!](http://github.com/jfroffice/carddav.js/blob/master/img/logo.png)
-
+![logo!](https://github.com/jfroffice/carddav.js/raw/master/img/logo.png)
 ## Getting Started
 Download the [production version][min] or the [development version][max].
 
