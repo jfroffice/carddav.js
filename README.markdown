@@ -2,7 +2,7 @@
 
 jQuery API to access read-only CardDav Server (like DaviCal)
 
-![carddav!](dlyce.com/carddav/4fa041f6c0e95e2d3e0000d2/carddav.js.png)
+![carddav!](http://dlyce.com/carddav/4fa041f6c0e95e2d3e0000d2/carddav.js.png)
 
 ## Getting Started
 Download the [production version][min] or the [development version][max].
