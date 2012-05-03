@@ -31,6 +31,12 @@ jQuery(function($) {
 </script>
 ```
 
+## Support
+
+- Chrome 16+
+- Firefox 10+
+- Safari 5.1+
+
 ## Documentation
 
 __vcardArray__ is an Array of __vcard__ Object.
