@@ -27,5 +27,3 @@ node_modules
 .bowerrc
 npm-debug.log
 bower_components
-components
-dist
