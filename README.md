@@ -6,8 +6,8 @@ jQuery API to access read-only CardDav Server (like DaviCal)
 ## Getting Started
 Download the [production version][min] or the [development version][max].
 
-[min]: https://raw.github.com/jfroffice/carddav.js/master/carddav.min.js
-[max]: https://raw.github.com/jfroffice/carddav.js/master/carddav.js
+[min]: https://raw.github.com/jfroffice/dist/carddav.js/master/carddav.min.js
+[max]: https://raw.github.com/jfroffice/dist/carddav.js/master/carddav.js
 
 In your web page:
 
@@ -39,9 +39,9 @@ jQuery(function($) {
 
 ## Documentation
 
-__vcardArray__ is an Array of __vcard__ Object.
+__vcardArray__ is an array of __vcard__ Object.
 
-```html
+```javascript
 vcard = {
     url: '/caldav.php/user/addressbook/UUID.vcf',
     vcard: {
@@ -62,8 +62,8 @@ vcard = {
 
 ## Release History
 
-v0.0.1: initial revision, only support getting carddav values
+v0.2.0: initial revision, only support getting carddav values
 
 ## License
-Copyright (c) 2012 John Fischer  
+Copyright (c) 2014 John Fischer  
 Licensed under the MIT license.
