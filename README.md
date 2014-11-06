@@ -66,8 +66,8 @@ vcard = {
 
 ## Release History
 
-v0.2.1: bower published version
-v0.2.0: initial revision, only support getting carddav values
+- v0.2.1: bower published version
+- v0.2.0: initial revision, only support getting carddav values
 
 ## License
 Copyright (c) 2014 John Fischer  
