@@ -1,0 +1,25 @@
+{
+  "name": "carddav.js",
+  "main": "carddav.js",
+  "version": "0.2.0",
+  "homepage": "https://github.com/jfroffice/carddav.js",
+  "authors": [
+    "jfroffice <jfroffice@gmail.com>"
+  ],
+  "description": "jQuery API to access read-only CardDav Server (like DaviCal)",
+  "keywords": [
+    "carddav"
+  ],
+  "license": "MIT",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "devDependencies": {
+    "jquery": "~2.1.1"
+  }
+}
