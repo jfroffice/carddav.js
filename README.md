@@ -31,6 +31,10 @@ jQuery(function($) {
 </script>
 ```
 
+## Reference
+
+[VCard Specification Format](http://fr.wikipedia.org/wiki/VCard)
+
 ## Support
 
 - Chrome 16+
