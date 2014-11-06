@@ -8,10 +8,9 @@
   ],
   "description": "jQuery API to access read-only CardDav Server (like DaviCal)",
   "keywords": [
-    "carddav"
+    "carddav", "vcard"
   ],
   "license": "MIT",
-  "private": true,
   "ignore": [
     "**/.*",
     "node_modules",
