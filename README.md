@@ -1,4 +1,5 @@
 # CardDav JS
+[![Build Status](https://travis-ci.org/jfroffice/carddav.js?branch=master)](https://travis-ci.org/jfroffice/carddav.js)
 
 jQuery API to access read-only CardDav Server (like DaviCal)
 
