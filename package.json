@@ -4,7 +4,7 @@
   "description": "jQuery API to access read-only CardDav Server (like DaviCal)",
   "main": "gulpfile.js",
   "scripts": {
-    "test": "echo \"no test to execute\" && exit 0"
+    "test": "gulp --verbose"
   },
   "repository": {
     "type": "git",
